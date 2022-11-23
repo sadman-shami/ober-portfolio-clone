@@ -6,9 +6,6 @@
 # install dependencies
 yarn
 
-# install dev dependencies
-yarn -D
-
 # start development server
 yarn dev
 ```
