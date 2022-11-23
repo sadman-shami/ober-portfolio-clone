@@ -1,0 +1,22 @@
+{
+  "name": "ober-portfolio-clone",
+  "version": "1.0.0",
+  "description": "ober portfolio clone",
+  "main": "main.js",
+  "author": "Sadman Shami <srahyme413@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "mixitup": "^3.3.1",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^8.4.5"
+  }
+}

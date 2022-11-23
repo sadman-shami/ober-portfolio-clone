@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ============== Basic Meta tags ================ -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Responsive Portfolio Website" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="sadman shami" />
+
+    <!-- ============== Title ================ -->
+    <meta name="title" content="Orbor Responsive Portfolio" />
+    <title>Orbor | Responsive Portfolio</title>
+    <!-- ================== Css/icon/js links ==================== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ====================== Loading Page ================== -->
+    <div
+      class="loader__container active__loader"
+      id="loader-container"
+      data-second="1"
+    >
+      <span class="loader__text">OBER</span>
+      <div class="loader__progress"></div>
+    </div>
+
+    <!-- ====================== Header ======================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">OBER</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="hamburger__menu">
+            <i class="bx bx-x hamburger__icon"></i>
+          </div>
+
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__social">
+            <a href="#" class="nav__social-link">
+              <i class="bx bxl-dribbble nav__social-icon"></i>
+            </a>
+            <a href="#" class="nav__social-link">
+              <i class="bx bxl-twitter nav__social-icon"></i>
+            </a>
+            <a href="#" class="nav__social-link">
+              <i class="bx bxl-behance nav__social-icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="nav__icons">
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <div class="hamburger__menu" id="hamburger-menu">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =================== Main ==================== -->
+    <main class="main remove__main" id="main">
+      <!-- =================== Home ==================== -->
+      <section class="home section">
+        <div class="home__container container grid">
+          <div class="home__handler">
+            <img
+              src="/images/profile.png"
+              alt="Profile Pic"
+              class="home__img"
+            />
+          </div>
+          <div class="home__data">
+            <span class="home__subtitle">UI/UX DESIGNER</span>
+            <h1 class="section__title">
+              Federico <br />
+              Ober
+            </h1>
+            <div class="home__data-description">
+              <p class="home__discription">
+                I'm a UI/UX Designer based in NewYork and enjoy playing with
+                colors. I love travelling, photography & music.
+              </p>
+
+              <div class="home__social">
+                <a href="#" class="home__social-link">
+                  <i class="bx bxl-twitter home__social-icon"></i>
+                </a>
+                <a href="#" class="home__social-link">
+                  <i class="bx bxl-behance home__social-icon"></i>
+                </a>
+                <a href="#" class="home__social-link">
+                  <i class="bx bxl-dribbble home__social-icon"></i>
+                </a>
+              </div>
+
+              <ul class="home__info-list">
+                <li class="home__info-item">
+                  <span class="home__info-title">Born in</span>
+                  <span class="home__info-sub">New York</span>
+                </li>
+
+                <li class="home__info-item">
+                  <span class="home__info-title">Experience</span>
+                  <span class="home__info-sub">7+</span>
+                </li>
+
+                <li class="home__info-item">
+                  <span class="home__info-title">Date of Birth</span>
+                  <span class="home__info-sub">27 June 1992</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== About ==================== -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h3 class="section__title">About Me</h3>
+
+          <div class="about__data">
+            <ul class="about__achievement">
+              <li class="about__achievement-item">
+                <i class="bx bx-check-circle about__achievement-icon"></i>
+                <span class="about__num">124</span>
+                <span class="about__text"
+                  >Compleated <br />
+                  Project</span
+                >
+              </li>
+
+              <li class="about__achievement-item">
+                <i class="bx bx-smile about__achievement-icon"></i>
+                <span class="about__num">65</span>
+                <span class="about__text"
+                  >Happy <br />
+                  Client</span
+                >
+              </li>
+
+              <li class="about__achievement-item">
+                <i class="bx bx-award about__achievement-icon"></i>
+                <span class="about__num">18</span>
+                <span class="about__text"
+                  >Awards <br />
+                  Won</span
+                >
+              </li>
+            </ul>
+
+            <div class="about__description">
+              <p class="about__description-text">
+                My name is Federico Ober. I have been studying UI UX Design
+                since October 2020. I like creating a cool design project.
+              </p>
+
+              <p class="about__description-text">
+                Donec imperdiet risus at tortor consequat maximus et eget magna.
+                Cras ornare sagittis augue, id sollicitudin justo tristique ut.
+                Nullam ex enim, euismod vel bibendum ultrices, fringilla vel
+                eros. Donec euismod leo lectus, et euismod metus euismod sed.
+                Quisque quis suscipit ipsum, at pellentesque velit. Duis a
+                congue sem.
+              </p>
+
+              <p class="about__description-text">
+                In sed dolor ut ligula malesuada sollicitudin. Morbi iaculis
+                convallis arcu, nec maximus tellus sodales in. Curabitur blandit
+                enim at nisl lobortis, non pretium enim hendrer
+              </p>
+              <div class="about__info">
+                <a href="#contact" class="about__btn btn">Contact Me</a>
+                <img
+                  src="/images/signature.png"
+                  alt="signature"
+                  class="about__signature"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== Resume ==================== -->
+      <section class="resume section" id="resume">
+        <div class="resume__container container grid">
+          <h3 class="section__title">My Resume</h3>
+
+          <div class="resume__data">
+            <p class="resume__description">
+              Talented UX designer with 7+ years of experience, seeking to
+              elevate UI/UX at ABC, Inc. As Lead UI/UX Head completed project
+              before dead line. ittis augue, id sollicitudin justo tristique ut.
+              Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros.
+              Donec euism od leo um, at pellentesque velituis a congue sem.
+            </p>
+
+            <div class="resume__services">
+              <span class="resume__service-title">SERVICES</span>
+
+              <ul class="resume__services-list">
+                <li class="resume__services-item">
+                  <i class="bx bxl-chrome resume__icon"></i>
+                  <span class="resume__service-item-title">
+                    Web development
+                  </span>
+                  <p class="resume__services-desc">
+                    Modern and mobile-ready website that will help you reach all
+                    of your marketing.
+                  </p>
+                  <a href="#" class="resume__services-link">order now</a>
+                </li>
+
+                <li class="resume__services-item">
+                  <i class="bx bxl-soundcloud resume__icon"></i>
+                  <span class="resume__service-item-title">
+                    Music Writing
+                  </span>
+                  <p class="resume__services-desc">
+                    Music copying, writing, creating, transcription and
+                    composition services.
+                  </p>
+                  <a href="#" class="resume__services-link">order now</a>
+                </li>
+
+                <li class="resume__services-item">
+                  <i class="bx bxl-algolia resume__icon"></i>
+                  <span class="resume__service-item-title"> Advetising </span>
+                  <p class="resume__services-desc">
+                    Advertising services include television, radio, print, mail,
+                    and web apps.
+                  </p>
+                  <a href="#" class="resume__services-link">order now</a>
+                </li>
+                <li class="resume__services-item">
+                  <i class="bx bxl-steam resume__icon"></i>
+                  <span class="resume__service-item-title">
+                    Game Development
+                  </span>
+                  <p class="resume__services-desc">
+                    Developing memorable and unique mobile android, ios and
+                    video games.
+                  </p>
+                  <a href="#" class="resume__services-link">order now</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume__education">
+              <span class="resume__education-title">EDUCATION</span>
+              <ul class="resume__education-list">
+                <li class="resume__education-item">
+                  <span class="resume-sub">2010 - 2012</span>
+                  <span class="resume__education-item-title">
+                    Master in Graphic
+                  </span>
+                  <p class="resume__education-desc">New York University</p>
+                </li>
+                <li class="resume__education-item">
+                  <span class="resume-sub">2006 - 2009</span>
+                  <span class="resume__education-item-title">
+                    Bachelors of FineArt
+                  </span>
+                  <p class="resume__education-desc">New York University</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume__award">
+              <span class="resume__award-title">AWARDS</span>
+              <ul class="resume__award-list">
+                <li class="resume__education-item">
+                  <span class="resume-sub">2016 - awwwards</span>
+                  <span class="resume__award-item-title">
+                    Site of the Day
+                  </span>
+                  <p class="resume__award-desc">
+                    Euismod vel bibendum ultrices, fringilla vel eros, donec
+                    euismod leo lectus.
+                  </p>
+                </li>
+                <li class="resume__education-item">
+                  <span class="resume-sub">2015 - designnominees</span>
+                  <span class="resume__award-item-title">
+                    Site of the Week
+                  </span>
+                  <p class="resume__award-desc">
+                    Euismod vel bibendum ultrices, fringilla vel eros, donec
+                    euismod leo lectus
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume__exp">
+              <span class="resume__award-title">EXPERIENCE</span>
+              <ul class="resume__award-list">
+                <li class="resume__exp-item">
+                  <span class="resume-sub">2014 - Present</span>
+                  <span class="resume__award-item-title">Soft Tech Inc.</span>
+                  <span class="resume-sub">UI Head &amp; Manager</span>
+                  <p class="resume__award-desc">
+                    Euismod vel bibendum ultrices, fringilla vel eros, donec
+                    euismod leo lectus
+                  </p>
+                </li>
+                <li class="resume__exp-item">
+                  <span class="resume-sub">2010 - 2014</span>
+                  <span class="resume__award-item-title"
+                    >Kana Design Studio</span
+                  >
+                  <span class="resume-sub">UI / UX Specialist</span>
+                  <p class="resume__award-desc">
+                    Euismod vel bibendum ultrices, fringilla vel eros, donec
+                    euismod leo lectus
+                  </p>
+                </li>
+                <li class="resume__exp-item">
+                  <span class="resume-sub">2009 - 2014</span>
+                  <span class="resume__award-item-title">Paperart</span>
+                  <span class="resume-sub">Graphic Designer</span>
+                  <p class="resume__award-desc">
+                    Euismod vel bibendum ultrices, fringilla vel eros, donec
+                    euismod leo lectus
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="resume__btn btn">Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== Project ==================== -->
+      <section class="project section" id="project">
+        <div class="project__container container grid">
+          <h3 class="section__title">My Project</h3>
+
+          <p class="project__description">
+            A Collection of my favorites project I’ve designed recently. Feeling
+            great while sharing here.
+          </p>
+
+          <div class="project__filter">
+            <span class="project__filter-item active__project" data-filter="all"
+              >All</span
+            >
+            <span class="project__filter-item" data-filter=".design"
+              >UI/UX Design</span
+            >
+            <span class="project__filter-item" data-filter=".photography"
+              >Photography</span
+            >
+            <span class="project__filter-item" data-filter=".development"
+              >Development</span
+            >
+            <span class="project__filter-item" data-filter=".brand"
+              >Branding</span
+            >
+          </div>
+
+          <div class="project__card-container">
+            <div class="project__card mix photography brand">
+              <a href="#" class="project__card-link">
+                <img
+                  src="/images/work1.jpeg"
+                  alt="project img"
+                  class="project__card-img"
+                />
+                <div class="project__info">
+                  <p class="project__title">Zorro</p>
+                  <span class="project__subtitle">
+                    Branding <br />
+                    Photography
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="project__card mix design brand">
+              <a href="#" class="project__card-link">
+                <img
+                  src="/images/work2.jpeg"
+                  alt="project img"
+                  class="project__card-img"
+                />
+                <div class="project__info">
+                  <p class="project__title">Gooir</p>
+                  <span class="project__subtitle">
+                    Branding <br />
+                    UI/UX Design
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="project__card mix design development">
+              <a href="#" class="project__card-link">
+                <img
+                  src="/images/work3.jpg"
+                  alt="project img"
+                  class="project__card-img"
+                />
+                <div class="project__info">
+                  <p class="project__title">Zorro</p>
+                  <span class="project__subtitle">
+                    Development <br />
+                    UI/UX Design
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== Pricing ==================== -->
+      <section class="pricing section" id="pricing">
+        <div class="pricing__container container grid">
+          <h3 class="section__title">Pricing Plans</h3>
+
+          <p class="pricing__description">
+            Are you interested to work with me ? Here are my price list for
+            design related work. Lets talk about project!
+          </p>
+
+          <div class="pricing__card-container">
+            <div class="pricing__card">
+              <h4 class="pricing__card-title">Full Time</h4>
+              <p class="pricing__card-description">Available for Full Time</p>
+
+              <span class="pricing__tag">$1200</span>
+
+              <ul class="pricing__container-items">
+                <li class="pricing__container-item">Brand Design</li>
+                <li class="pricing__container-item">Advertising</li>
+                <li class="pricing__container-item">Web Development</li>
+                <li class="pricing__container-item">Photography</li>
+              </ul>
+
+              <a href="#" class="pricing__btn btn">Hire Me</a>
+            </div>
+
+            <div class="pricing__card">
+              <h4 class="pricing__card-title">Project Wise</h4>
+              <p class="pricing__card-description">Available for Freelancing</p>
+
+              <span class="pricing__tag">$400</span>
+
+              <ul class="pricing__container-items">
+                <li class="pricing__container-item">Brand Design</li>
+                <li class="pricing__container-item">Advertising</li>
+                <li class="pricing__container-item">Web Development</li>
+                <li class="pricing__container-item">Photography</li>
+              </ul>
+
+              <a href="#" class="pricing__btn btn">Hire Me</a>
+            </div>
+
+            <div class="pricing__card">
+              <h4 class="pricing__card-title">Hourley</h4>
+              <p class="pricing__card-description">
+                Available for Hourley Basis
+              </p>
+
+              <span class="pricing__tag">$60</span>
+
+              <ul class="pricing__container-items">
+                <li class="pricing__container-item">Brand Design</li>
+                <li class="pricing__container-item">Advertising</li>
+                <li class="pricing__container-item">Web Development</li>
+                <li class="pricing__container-item">Photography</li>
+              </ul>
+
+              <a href="#" class="pricing__btn btn">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================== Testimonial ========================= -->
+      <section class="testimonial section">
+        <div class="testimonial__container container">
+          <h3 class="section__title">Testimonial</h3>
+          <div class="testimonial__card-container swiper testimonialSwiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__comment">
+                  <svg
+                    width="58"
+                    height="44"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 58 44"
+                    class="testimonial__comment-svg"
+                  >
+                    <defs></defs>
+                    <g>
+                      <g>
+                        <path
+                          d="M24.15697,5.25606c-5.87975,2.24304 -9.65698,8.89397 -9.65698,14.29844h9.62551v24.44363h-24.12552v-18.06641c0,-13.94272 9.05766,-23.39363 21.74995,-25.93231zM57.98788,5.25606c-5.87734,2.24304 -9.65458,8.89397 -9.65458,14.29844h9.6666v24.44363h-24.12552v-18.06641c0,-13.94272 9.01657,-23.39363 21.70887,-25.93231zM54.21305,2.82419c-11.10706,2.9459 -17.92202,11.65104 -17.92202,23.10753v15.62309h19.29222v-19.55605h-9.6666v-2.44427c0,-5.29194 3.09334,-12.05826 8.87878,-15.45906zM20.37974,2.82133v0l0.58239,1.27411c-5.78556,3.4008 -8.8789,10.16712 -8.8789,15.45906v2.44427v0h9.62563v0v19.55605v0h-19.29222v0v-15.62309c0,-11.45458 6.83189,-20.15972 17.9631,-23.11039"
+                          fill-opacity="1"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <p class="testimonial__comment-text">
+                    Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus
+                    bibendum, velit enim finibus mauris, in volutpat arcu magna
+                    ac metus. Sed condimentum, erat vel sodales pharetra, ligula
+                    massa maximus dolor
+                  </p>
+                </div>
+
+                <div class="testimonial__user">
+                  <img
+                    src="/images/testimonial.jpeg"
+                    alt="testimonial user img"
+                    class="testimonial__user-img"
+                  />
+
+                  <div class="testimonial__user-info">
+                    <p class="testimonial__user-name">Jennifer Smith</p>
+                    <p class="testimonial__user-company">CEO &amp; Founder</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__comment">
+                  <svg
+                    width="58"
+                    height="44"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 58 44"
+                    class="testimonial__comment-svg"
+                  >
+                    <defs></defs>
+                    <g>
+                      <g>
+                        <path
+                          d="M24.15697,5.25606c-5.87975,2.24304 -9.65698,8.89397 -9.65698,14.29844h9.62551v24.44363h-24.12552v-18.06641c0,-13.94272 9.05766,-23.39363 21.74995,-25.93231zM57.98788,5.25606c-5.87734,2.24304 -9.65458,8.89397 -9.65458,14.29844h9.6666v24.44363h-24.12552v-18.06641c0,-13.94272 9.01657,-23.39363 21.70887,-25.93231zM54.21305,2.82419c-11.10706,2.9459 -17.92202,11.65104 -17.92202,23.10753v15.62309h19.29222v-19.55605h-9.6666v-2.44427c0,-5.29194 3.09334,-12.05826 8.87878,-15.45906zM20.37974,2.82133v0l0.58239,1.27411c-5.78556,3.4008 -8.8789,10.16712 -8.8789,15.45906v2.44427v0h9.62563v0v19.55605v0h-19.29222v0v-15.62309c0,-11.45458 6.83189,-20.15972 17.9631,-23.11039"
+                          fill-opacity="1"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <p class="testimonial__comment-text">
+                    Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus
+                    bibendum, velit enim finibus mauris, in volutpat arcu magna
+                    ac metus. Sed condimentum, erat vel sodales pharetra, ligula
+                    massa maximus dolor
+                  </p>
+                </div>
+
+                <div class="testimonial__user">
+                  <img
+                    src="/images/testimonial.jpeg"
+                    alt="testimonial user img"
+                    class="testimonial__user-img"
+                  />
+
+                  <div class="testimonial__user-info">
+                    <p class="testimonial__user-name">Jennifer Smith</p>
+                    <p class="testimonial__user-company">CEO &amp; Founder</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__comment">
+                  <svg
+                    width="58"
+                    height="44"
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 58 44"
+                    class="testimonial__comment-svg"
+                  >
+                    <defs></defs>
+                    <g>
+                      <g>
+                        <path
+                          d="M24.15697,5.25606c-5.87975,2.24304 -9.65698,8.89397 -9.65698,14.29844h9.62551v24.44363h-24.12552v-18.06641c0,-13.94272 9.05766,-23.39363 21.74995,-25.93231zM57.98788,5.25606c-5.87734,2.24304 -9.65458,8.89397 -9.65458,14.29844h9.6666v24.44363h-24.12552v-18.06641c0,-13.94272 9.01657,-23.39363 21.70887,-25.93231zM54.21305,2.82419c-11.10706,2.9459 -17.92202,11.65104 -17.92202,23.10753v15.62309h19.29222v-19.55605h-9.6666v-2.44427c0,-5.29194 3.09334,-12.05826 8.87878,-15.45906zM20.37974,2.82133v0l0.58239,1.27411c-5.78556,3.4008 -8.8789,10.16712 -8.8789,15.45906v2.44427v0h9.62563v0v19.55605v0h-19.29222v0v-15.62309c0,-11.45458 6.83189,-20.15972 17.9631,-23.11039"
+                          fill-opacity="1"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <p class="testimonial__comment-text">
+                    Sed vel mattis dolor. Vestibulum gravida, dolor vel dapibus
+                    bibendum, velit enim finibus mauris, in volutpat arcu magna
+                    ac metus. Sed condimentum, erat vel sodales pharetra, ligula
+                    massa maximus dolor
+                  </p>
+                </div>
+
+                <div class="testimonial__user">
+                  <img
+                    src="/images/testimonial.jpeg"
+                    alt="testimonial user img"
+                    class="testimonial__user-img"
+                  />
+
+                  <div class="testimonial__user-info">
+                    <p class="testimonial__user-name">Jennifer Smith</p>
+                    <p class="testimonial__user-company">CEO &amp; Founder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== Blog ==================== -->
+      <section class="blog section" id="blog">
+        <div class="blog__container container grid">
+          <h3 class="section__title">My Blog</h3>
+
+          <p class="blog__description">
+            Suspendisse potenti. Sed egestas eros eu libero posuere ultrices.
+            Nullam ut aliquet felis, sit amet imperdiet felis.
+          </p>
+
+          <div class="blog__card-container">
+            <div class="blog__card">
+              <img src="/images/blog1.jpeg" alt="Blog" class="blog__img" />
+              <div class="blog__card-inner">
+                <div class="blog__card-publish">
+                  <p class="blog__tag">UI Design</p>
+                  <p class="blog__date">November 28, 2021</p>
+                </div>
+                <div class="blog__card-info">
+                  <a href="#" class="blog__title">
+                    Usability Secrets to Create Better User Interfaces
+                  </a>
+                  <p class="blog__card-description">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                    mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
+                    arcu lacus.
+                  </p>
+                  <a href="#" class="blog__link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__card">
+              <img src="/images/blog2.jpeg" alt="Blog" class="blog__img" />
+              <div class="blog__card-inner">
+                <div class="blog__card-publish">
+                  <p class="blog__tag">Branding</p>
+                  <p class="blog__date">November 28, 2021</p>
+                </div>
+                <div class="blog__card-info">
+                  <a href="#" class="blog__title">
+                    Three Ways To Level Up Your Photography
+                  </a>
+                  <p class="blog__card-description">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                    mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
+                    arcu lacus.
+                  </p>
+                  <a href="#" class="blog__link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__card">
+              <img src="/images/blog3.jpg" alt="Blog" class="blog__img" />
+              <div class="blog__card-inner">
+                <div class="blog__card-publish">
+                  <p class="blog__tag">Photography</p>
+                  <p class="blog__date">November 28, 2021</p>
+                </div>
+                <div class="blog__card-info">
+                  <a href="#" class="blog__title">
+                    10 Useful Tips to Improve Your UI Designs
+                  </a>
+                  <p class="blog__card-description">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                    mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
+                    arcu lacus.
+                  </p>
+                  <a href="#" class="blog__link">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="blog__btn btn">View More</a>
+        </div>
+      </section>
+
+      <!-- =================== Client ==================== -->
+      <section class="client section">
+        <div class="client__container container grid">
+          <h3 class="section__title">My Clients</h3>
+
+          <p class="client__description">
+            Suspendisse potenti. Sed egestas eros eu libero posuere ultrices.
+            Nullam ut aliquet felis, sit amet imperdiet felis.
+          </p>
+
+          <div class="client__name">
+            <img src="/images/brand1.png" alt="Client" class="client__img" />
+            <img src="/images/brand2.png" alt="Client" class="client__img" />
+            <img src="/images/brand3.png" alt="Client" class="client__img" />
+            <img src="/images/brand4.png" alt="Client" class="client__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== Contact ==================== -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <h3 class="section__title">Contact Me</h3>
+
+          <div class="contact__grid">
+            <div class="contact__info">
+              <div class="contact__info-card">
+                <i class="bx bx-phone-call contact__icon"></i>
+                <p class="contact__phone">+1 023-456-7800</p>
+              </div>
+
+              <div class="contact__info-card">
+                <i class="bx bx-envelope contact__icon"></i>
+                <p class="contact__mail">hi@ober.com</p>
+              </div>
+
+              <div class="contact__info-card">
+                <i class="bx bx-map contact__icon"></i>
+                <p class="contact__address">43rd Street River Point NY 1023</p>
+              </div>
+            </div>
+
+            <div class="contact__from">
+              <form
+                action=""
+                class="contact__form-container"
+                autocomplete="off"
+              >
+                <div class="contact__form-input">
+                  <label for="name" class="form__label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form__input"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+
+                <div class="contact__form-input">
+                  <label for="email" class="form__label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form__input"
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+
+                <div class="contact__form-input contact__form-textarea">
+                  <label for="comment" class="form__label">Comment</label>
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    cols="30"
+                    rows="10"
+                    class="form__input form__textarea"
+                    placeholder="Comment..."
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="form__btn btn">Send Me</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= Scroll Top ================= -->
+    <div class="scroll__up" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scroll__icon"></i>
+    </div>
+
+    <!-- =============== Footer ================== -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <i class="bx bxl-twitter footer__icon"></i>
+          </a>
+
+          <a href="#" class="footer__social-link">
+            <i class="bx bxl-dribbble footer__icon"></i>
+          </a>
+
+          <a href="#" class="footer__social-link">
+            <i class="bx bxl-behance footer__icon"></i>
+          </a>
+        </div>
+
+        <div class="footer__copy">
+          <p class="footer__copy-text">
+            <span id="footer-year" class="footer__year"></span> Sadman Shami.
+            All Rights Reserved
+          </p>
+        </div>
+
+        <div class="footer__devloper">
+          <p class="footer__devloper-text">
+            Developed by <a href="#" class="developer-name">Sadman Shami</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
