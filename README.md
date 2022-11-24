@@ -8,6 +8,7 @@
 - `scrollreveal`
 - `swiper`
 - `vite`
+- `vite-plugin-html`
 
 # Clone the repository to local
 
