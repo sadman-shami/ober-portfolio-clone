@@ -1,6 +1,12 @@
 # Ober Portfolio Clone
 
+# Light Mode
+
 ![preview](preview.png)
+
+# Dark Mode
+
+![preview dark](preview-dark.png)
 
 # Used Library
 
