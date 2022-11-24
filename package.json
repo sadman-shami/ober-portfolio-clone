@@ -6,9 +6,9 @@
   "type": "module",
   "author": "Sadman Shami <srahyme413@gmail.com>",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 3000"
   },
   "license": "MIT",
   "private": true,
