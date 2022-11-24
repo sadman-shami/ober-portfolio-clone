@@ -4,6 +4,7 @@
   "description": "ober portfolio clone",
   "main": "main.js",
   "type": "module",
+  "repository": "https://github.com/sadman-shami/ober-portfolio-clone.git",
   "author": "Sadman Shami <srahyme413@gmail.com>",
   "scripts": {
     "dev": "vite --port 3000",
