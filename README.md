@@ -24,7 +24,12 @@ git clone https://github.com/sadman-shami/ober-portfolio-clone.git
 cd ober-portfolio-clone
 
 # install dependencies 🧶
+
+# yarn
 yarn
+
+# pnpm
+pnpm i
 ```
 
 # Checklist
@@ -39,9 +44,17 @@ When you use this template, update the following:
 
 # Usages
 
+### Yarn
+
 - `yarn dev` - starts vite dev server 🚀
 - `yarn build` - build the project -> (minify all {css, js, html} files) 📦
 - `yarn preview` - preview the build 🎉
+
+### Pnpm
+
+- `pnpm run dev` - starts vite dev server 🚀
+- `pnpm run build` - build the project -> (minify all {css, js, html} files) 📦
+- `pnpm run preview` - preview the build 🎉
 
 # Acknowledge
 
